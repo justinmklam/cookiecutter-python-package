@@ -4,7 +4,9 @@
 
 .vscode/
 
-# Virtual environment
-ua02/
+# Sphinx docs
 docs/_build/
 docs/_source/
+
+# Virtual environment
+env/

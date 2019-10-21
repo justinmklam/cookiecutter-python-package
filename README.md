@@ -1,6 +1,3 @@
-# UBC AweSEM Control
+# Python Package Template
 
-# Contributors
-
-- Justin Lam
-- Chuan Du
+Template repository for a python project.

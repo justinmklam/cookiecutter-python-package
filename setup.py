@@ -1,12 +1,12 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="awesem",
+    name="mypackage",
     version="1.0.0",
-    description="Code to control the UBC AweSEM device",
-    author="Justin Lam",
-    author_email="justin@mistywest.com",
-    url="https://bitbucket.org/mw_active/ua02-awesem-control",
+    description="My package",
+    author="YOUR NAME",
+    author_email="YOUR EMAIL",
+    url="https://github.com/justinmklam/python-package-template",
     packages=find_packages(),
     scripts=[],
     install_requires=[
