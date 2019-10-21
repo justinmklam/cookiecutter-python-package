@@ -8,13 +8,11 @@ Welcome to UBC AweSEM's documentation!
 
 .. mdinclude:: ../README.md
 
-Table of Contents
-=================
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
 
-
+   _source/modules
 
 Indices and tables
 ==================
