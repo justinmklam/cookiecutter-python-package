@@ -4,17 +4,17 @@ API Documentation
 Main Scripts
 ---------------
 .. toctree::
-    _source/awesem.main
+    _source/mypackage.main
 
 
 API
 ---------------
 
 .. toctree::
-    _source/awesem.api
+    _source/mypackage.api
 
 Utilities
 ----------------
 
 .. toctree::
-    _source/awesem.utils
+    _source/mypackage.utils
