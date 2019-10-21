@@ -1,0 +1,8 @@
+**/__pycache/
+*.pyc
+*.egg-info/
+
+.vscode/
+
+# Virtual environment
+ua02/
