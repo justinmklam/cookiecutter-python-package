@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'UBC AweSEM'
-copyright = '2019, Justin Lam, Chuan Du'
-author = 'Justin Lam, Chuan Du'
+copyright = '2019, MistyWest'
+author = 'MistyWest'
 
 # The full version, including alpha/beta/rc tags
 release = 'v1.0.0'
