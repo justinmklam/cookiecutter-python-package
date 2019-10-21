@@ -12,6 +12,7 @@ Welcome to UBC AweSEM's documentation!
    :maxdepth: 2
    :hidden:
 
+   api_documentation
    _source/modules
 
 Indices and tables
