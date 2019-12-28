@@ -16,6 +16,8 @@ sys.path.insert(0, os.path.abspath('..'))
 
 os.system("sphinx-apidoc -efME -o _source/ ../mypackage")
 
+os.system("pip3 install -r ../requirements.txt")
+
 # -- Project information -----------------------------------------------------
 
 project = 'UBC AweSEM'
@@ -35,6 +37,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.todo",
     "sphinx.ext.napoleon",
+    "m2r"
 ]
 
 napoleon_google_docstring = True
