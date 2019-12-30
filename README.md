@@ -1,5 +1,17 @@
-# Python Package Template
+# Cookiecutter Python Package Template
 
-[![Documentation Status](https://readthedocs.org/projects/python-package-template-readthedocs/badge/?version=latest)](https://python-package-template-readthedocs.readthedocs.io/en/latest/?badge=latest)
+Yet another minimal [cookiecutter](https://github.com/cookiecutter/cookiecutter) python package template. Set up for sphinx documentation and.
 
-Template repository for a python project.
+## Usage
+
+```bash
+pip install cookiecutter
+git clone https://github.com/justinmklam/python-package-template.git
+cookiecutter python-package-template/
+```
+
+## Details
+
+* Uses Sphinx for documentation (Google-style docstrings)
+* Compatible [Read the Docs](https://readthedocs.org/)
+* Uses Pytest as the test runner
