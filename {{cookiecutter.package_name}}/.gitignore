@@ -1,0 +1,12 @@
+**/__pycache/
+*.pyc
+*.egg-info/
+
+.vscode/
+
+# Sphinx docs
+docs/_build/
+docs/_source/
+
+# Virtual environment
+env/
