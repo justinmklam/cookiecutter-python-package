@@ -7,11 +7,11 @@ Main Scripts
     _source/{{cookiecutter.package_name}}.main
 
 
-API
+Drivers
 ---------------
 
 .. toctree::
-    _source/{{cookiecutter.package_name}}.api
+    _source/{{cookiecutter.package_name}}.drivers
 
 Utilities
 ----------------
