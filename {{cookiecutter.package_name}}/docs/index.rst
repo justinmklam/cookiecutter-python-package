@@ -1,13 +1,20 @@
-.. mdinclude:: ../README.md
+{{cookiecutter.project_name}}
+=======================================
 
-.. automodule:: {{cookiecutter.package_name}}
-    :members:
+.. toctree::
+    :maxdepth: 2
+
+    README
+
+.. _apiref:
+
+API Reference
+-------------
 
 .. toctree::
    :maxdepth: 2
 
-   api_documentation
-   _source/modules
+   {{cookiecutter.package_name}}
 
 Indices and tables
 ==================

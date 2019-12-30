@@ -14,8 +14,6 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
-os.system("sphinx-apidoc -efME -o _source/ ../{{cookiecutter.package_name}}")
-
 # -- Project information -----------------------------------------------------
 
 from datetime import datetime
@@ -34,11 +32,11 @@ release = '{{cookiecutter.package_version}}'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx.ext.autodoc",
-    "sphinx.ext.todo",
-    "sphinx.ext.napoleon",
+    'sphinx.ext.autodoc',
+    'sphinx.ext.todo',
+    'sphinx.ext.viewcode',
     "sphinx_rtd_theme",
-    "m2r"
+    "recommonmark"
 ]
 
 napoleon_google_docstring = True
