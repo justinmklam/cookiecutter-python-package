@@ -1,11 +1,10 @@
-Welcome to MyPackage's documentation!
-======================================
-
 .. mdinclude:: ../README.md
+
+.. automodule:: mypackage
+    :members:
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
 
    api_documentation
    _source/modules
