@@ -1,6 +1,6 @@
 # Cookiecutter Python Package Template
 
-Yet another minimal [cookiecutter](https://github.com/cookiecutter/cookiecutter) python package template. Set up for sphinx documentation and.
+Yet another minimal [cookiecutter](https://github.com/cookiecutter/cookiecutter) python package template.
 
 ## Usage
 
@@ -13,5 +13,5 @@ cookiecutter python-package-template/
 ## Details
 
 * Uses Sphinx for documentation (Google-style docstrings)
-* Compatible [Read the Docs](https://readthedocs.org/)
+* Set up for [Read the Docs](https://readthedocs.org/), if desired
 * Uses Pytest as the test runner
