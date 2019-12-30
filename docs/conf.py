@@ -16,8 +16,6 @@ sys.path.insert(0, os.path.abspath('..'))
 
 os.system("sphinx-apidoc -efME -o _source/ ../mypackage")
 
-os.system("pip3 install -r ../requirements.txt")
-
 # -- Project information -----------------------------------------------------
 
 project = 'UBC AweSEM'
