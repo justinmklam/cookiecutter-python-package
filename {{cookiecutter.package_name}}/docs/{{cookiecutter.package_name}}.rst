@@ -12,7 +12,7 @@ Main Scripts
 Drivers
 ---------------
 
-.. automodule:: {{cookiecutter.package_name}}.drivers
+.. automodule:: {{cookiecutter.package_name}}.drivers.sample_driver
    :members:
    :undoc-members:
    :show-inheritance:
@@ -20,7 +20,7 @@ Drivers
 Utilities
 ----------------
 
-.. automodule:: {{cookiecutter.package_name}}.utils.myutil
+.. automodule:: {{cookiecutter.package_name}}.utils.sample_util
    :members:
    :undoc-members:
    :show-inheritance:
