@@ -4,17 +4,17 @@ API Documentation
 Main Scripts
 ---------------
 .. toctree::
-    _source/mypackage.main
+    _source/{{cookiecutter.package_name}}.main
 
 
 API
 ---------------
 
 .. toctree::
-    _source/mypackage.api
+    _source/{{cookiecutter.package_name}}.api
 
 Utilities
 ----------------
 
 .. toctree::
-    _source/mypackage.utils
+    _source/{{cookiecutter.package_name}}.utils

@@ -1,0 +1,11 @@
+{
+    "author_name": "Justin Lam",
+    "author_email": "contact@justinmklam.com",
+
+    "project_name": "My Py Package",
+
+    "package_name": "mypypackage",
+    "package_version": "0.1.0",
+    "package_description": "A minimal cookiecutter template for Python packages",
+    "package_url": "https://github.com/justinmklam/python-package-template"
+}

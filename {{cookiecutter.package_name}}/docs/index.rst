@@ -1,6 +1,6 @@
 .. mdinclude:: ../README.md
 
-.. automodule:: mypackage
+.. automodule:: {{cookiecutter.package_name}}
     :members:
 
 .. toctree::

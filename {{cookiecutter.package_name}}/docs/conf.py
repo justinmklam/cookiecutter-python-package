@@ -14,18 +14,18 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
-os.system("sphinx-apidoc -efME -o _source/ ../mypackage")
+os.system("sphinx-apidoc -efME -o _source/ ../{{cookiecutter.package_name}}")
 
 # -- Project information -----------------------------------------------------
 
 from datetime import datetime
 
-project = 'My Python Package'
-copyright = '%s, Justin Lam' % (datetime.now().year)
-author = 'Justin Lam'
+project = '{{cookiecutter.project_name}}'
+copyright = '%s, {{cookiecutter.author_name}}' % (datetime.now().year)
+author = '{{cookiecutter.author_name}}'
 
 # The full version, including alpha/beta/rc tags
-release = 'v1.0.0'
+release = '{{cookiecutter.package_version}}'
 
 
 # -- General configuration ---------------------------------------------------
