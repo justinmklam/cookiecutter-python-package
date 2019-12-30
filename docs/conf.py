@@ -18,9 +18,11 @@ os.system("sphinx-apidoc -efME -o _source/ ../mypackage")
 
 # -- Project information -----------------------------------------------------
 
-project = 'UBC AweSEM'
-copyright = '2019, MistyWest'
-author = 'MistyWest'
+from datetime import datetime
+
+project = 'My Python Package'
+copyright = '%s, Justin Lam' % (datetime.now().year)
+author = 'Justin Lam'
 
 # The full version, including alpha/beta/rc tags
 release = 'v1.0.0'
