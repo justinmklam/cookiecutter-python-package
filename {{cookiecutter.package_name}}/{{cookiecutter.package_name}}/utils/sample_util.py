@@ -1,6 +1,6 @@
 """
-Main Script Sample
-====================
+Sample Utility
+================
 
 Just a test to make sure Sphinx Docs works
 
