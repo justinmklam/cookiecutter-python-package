@@ -6,8 +6,8 @@ Yet another minimal [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
 ```bash
 pip install cookiecutter
-git clone https://github.com/justinmklam/python-package-template.git
-cookiecutter python-package-template/
+
+cookiecutter https://github.com/justinmklam/cookiecutter-python-package
 ```
 
 ## Details
