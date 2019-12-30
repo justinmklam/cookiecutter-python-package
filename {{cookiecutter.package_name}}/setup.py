@@ -10,8 +10,6 @@ setup(
     packages=find_packages(),
     scripts=[],
     install_requires=[
-        "sphinx",
-        "m2r",
         "pytest",
     ],
     zip_safe=False,
