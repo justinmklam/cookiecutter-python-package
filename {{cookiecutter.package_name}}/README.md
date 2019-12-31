@@ -26,3 +26,11 @@ google-chrome _build/html/index.html
 ```
 
 ## Usage
+
+## Releases
+
+If tagged releases are used, the following script can be run to generate a changelog between tags. This will create/update a `CHANGELOG.md` file.
+
+```bash
+scripts/generate-changelog.sh
+```
