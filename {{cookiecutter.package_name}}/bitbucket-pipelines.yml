@@ -1,0 +1,12 @@
+image: python:3.6.8
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build and Test
+          caches:
+            - pip
+          script:
+            - pip install -e .
+            - pytest tests/

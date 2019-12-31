@@ -36,10 +36,15 @@ git push -u origin master
 
 ## Features
 
-* Uses Sphinx for documentation (with Google or Numpy-style docstrings)
-* Set up for [Read the Docs](https://readthedocs.org/), if desired
-* Uses Pytest as the test runner
-* Includes a script to auto-generate a changelog of changes between tagged releases
+* Uses:
+    * Sphinx for documentation (with Google or Numpy-style docstrings)
+    * Pytest as the test runner
+* Includes:
+    * Script to auto-generate a changelog of changes between tagged releases
+    * [Read the Docs](https://readthedocs.org/) configuration file (optional)
+    * BitBucket Pipelines configuration file (optional)
+
+*Note: If the optional configuration files are not needed, simply delete them after the project has been created.*
 
 ## Documentation
 
