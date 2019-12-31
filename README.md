@@ -2,6 +2,8 @@
 
 Yet another minimal [cookiecutter](https://github.com/cookiecutter/cookiecutter) python package template, with an emphasis on easy and good looking documentation in Sphinx.
 
+An example project created from this template can be found [here](https://github.com/justinmklam/example-python-package), with accompanying documentation hosted on [Read the Docs](https://example-python-package.readthedocs.io/en/latest/README.html).
+
 ## Usage
 
 ```bash
