@@ -42,7 +42,7 @@ git push -u origin master
     * Sphinx for documentation (with Google or Numpy-style docstrings)
     * Pytest as the test runner
 * Includes:
-    * Script to auto-generate a changelog of changes between tagged releases
+    * Script to auto-generate a changelog of changes between tagged releases ([example](https://github.com/justinmklam/example-python-package/blob/master/CHANGELOG.md))
     * [Read the Docs](https://readthedocs.org/) configuration file (optional)
     * BitBucket Pipelines configuration file (optional)
 
