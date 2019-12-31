@@ -2,6 +2,7 @@
 # Generates a changelog between tagged releases
 
 repository_url="{{cookiecutter.package_url}}"
+commit_grep="pull request|\[major\]|\[bugfix\]|\[minor\]"
 
 function generate_changelog() {
     previous_tag=0
@@ -12,7 +13,7 @@ function generate_changelog() {
             tag_date=$(git log -1 --pretty=format:'%ad' --date=short ${previous_tag})
             printf "## [${previous_tag}](${repository_url}/get/${previous_tag}.zip)\n\n"
             printf "_Release Date: ${tag_date}, Commit Hash: ${commit_hash}_\n\n"
-            git log ${current_tag}...${previous_tag} --pretty=format:"* %s ([View](${repository_url}/commits/%H))" | grep -E "pull request|\[major\]|\[bugfix\]|\[minor\]"
+            git log ${current_tag}...${previous_tag} --pretty=format:"* %s ([View](${repository_url}/commits/%H))" | grep -E "${commit_grep}"
             printf "\n\n"
         fi
         previous_tag=${current_tag}
