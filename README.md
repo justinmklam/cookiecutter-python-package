@@ -39,6 +39,7 @@ git push -u origin master
 * Uses Sphinx for documentation (with Google or Numpy-style docstrings)
 * Set up for [Read the Docs](https://readthedocs.org/), if desired
 * Uses Pytest as the test runner
+* Includes a script to auto-generate a changelog of changes between tagged releases
 
 ## Documentation
 
